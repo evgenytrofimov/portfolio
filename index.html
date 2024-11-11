@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- header section -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="headline">
+                <p class="headline__full-name">
+                    Трофимов Евгений
+                </p>
+                <p class="headline__phone">
+                    +7 999 999-99-99
+                </p>
+                <div class="headline__email">
+                    <p><a href="mailto:name@mail.ru" class="headline__email-address">name@mail.ru</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="navbar">
+            <div class="wrapper">
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#projects" class="header__link">
+                                Проекты
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#skills" class="header__link">
+                                Навыки
+                            </a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#contacts" class="header__link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="wrapper">
+    
+            <!-- intro section -->
+            <section class="intro">
+                <p3 class="intro__text">
+                    Трофимов Евгений — слушатель Университета «Синергия» по программе дополнительного профессионального образования «Верстка CSS и программирование на языке JavaScript».
+                </p3>
+            </section>
+
+            <!-- projects projects -->        
+            <section class="projects" id="projects">
+                <h1 class="projects__title section-title">
+                    Мои проекты
+                </h1>
+                <h3 class="projects__subtitle section-subtitle">
+                    Проекты, сделанные за время обучения
+                </h3>
+                <div class="projects__cards">
+                    <div class="projects__cards_1">
+                        <div class="project__card_1">
+                            <input type="radio" name="project_1" id="project_1-1" checked>
+                            <label for="project_1-1"></label>
+                            <div class="project_1-img">
+                                <img src="./img/project_1_1.jpg" alt="Научиться учиться" class="project__card_pic">
+                            </div>
+                            <input type="radio" name="project_1" id="project_1-2">
+                            <label for="project_1-2"></label>
+                            <div class="project_1-img">
+                                <img src="./img/project_1_2.jpg" alt="Научиться учиться" class="project__card_pic">
+                            </div>
+                            <input type="radio" name="project_1" id="project_1-3">
+                            <label for="project_1-3"></label>
+                            <div class="project_1-img">
+                                <img src="./img/project_1_3.jpg" alt="Научиться учиться" class="project__card_pic">
+                            </div>
+                            <input type="radio" name="project_1" id="project_1-4">
+                            <label for="project_1-4"></label>
+                            <div class="project_1-img">
+                                <img src="./img/project_1_4.jpg" alt="Научиться учиться" class="project__card_pic">
+                            </div>
+                        </div>
+                        <div class="project__card-1_caption">
+                            <h3 class="project__card-1_caption-text section-subtitle">
+                                Проект «Научиться учиться», одностраничный сайт
+                            </h3>
+                            <a href="https://github.com/evgenytrofimov/task-sinergy" class="project__card-1_caption-link">
+                                Скачать проект с GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__cards_2">
+                        <div class="project__card_2">
+                            <input type="radio" name="project_2" id="project_2-1" checked>
+                            <label for="project_2-1"></label>
+                            <div class="project_2-img">
+                                <img src="./img/project_2_1.jpg" alt="Простой стартовый шаблон" class="project__card_pic">
+                            </div>
+                            <input type="radio" name="project_2" id="project_2-2">
+                            <label for="project_2-2"></label>
+                            <div class="project_2-img">
+                                <img src="./img/project_2_2.jpg" alt="Простой стартовый шаблон" class="project__card_pic">
+                            </div>
+                            <input type="radio" name="project_2" id="project_2-3">
+                            <label for="project_2-3"></label>
+                            <div class="project_2-img">
+                                <img src="./img/project_2_3.jpg" alt="Простой стартовый шаблон" class="project__card_pic">
+                            </div>
+                            <input type="radio" name="project_2" id="project_2-4">
+                            <label for="project_2-4"></label>
+                            <div class="project_2-img">
+                                <img src="./img/project_2_4.jpg" alt="Простой стартовый шаблон" class="project__card_pic">
+                            </div>
+                        </div>
+                        <div class="project__card-2_caption">
+                            <h3 class="project__card-2_caption-text section-subtitle">
+                                Проект «Простой стартовый шаблон», четырехстраничный сайт
+                            </h3>
+                            <a href="https://github.com/evgenytrofimov/simple-starter-template" class="project__card-2_caption-link">
+                                Скачать проект с GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- skills projects --> 
+            <section class="skills" id="skills">
+                <h1 class="skills__title section-title">
+                    Мои навыки
+                </h1>
+                <h3 class="skills__subtitle section-subtitle">
+                    Список навыков разработки фронтенда: GIT, HTML, CSS, JavaScript.
+                </h3>
+            </section>
+        </div>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer" id="contacts">
+        <div class="wrapper">
+            <div class="footer__wrapper">
+                <div class="footer__contacts">
+                    <h1 class="contacts__title section-title">
+                        Контакты
+                    </h1>
+                    <ul class="footer__contacts_list">
+                        <li class="footer__contacts_item">
+                            <span class="footer__contacts_full-name">
+                                Трофимов Евгений Викторович
+                            </span>
+                        </li>
+                        <li class="footer__contacts_item">
+                            <span class="footer__contacts_phone">
+                                +7 999 999-99-99
+                            </span>
+                        </li>
+                        <li class="footer__contacts_item">
+                            <div class="footer__contacts_email">
+                                <p><a href="mailto:name@mail.ru" class="footer__email-address">name@mail.ru</a></p>
+                            </div>
+                        </li>
+                        <li class="footer__contacts_item">
+                            <span class="footer__contacts_site">
+                                www.my-site.ru
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#projects" class="footer__link">
+                                Проекты
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#skills" class="footer__link">
+                                Навыки
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#contacts" class="footer__link">
+                                Контакты
+                            </a>
+                        </li>
+                        <div class="footer__icons">
+                            <div class="footer__sn-icon">
+                                <a href="#!" class="footer__sn_icon-link">
+                                    <img src="./img/svg/logo_sn_vk.svg" alt="vkontakte" class="footer__vk-pic">
+                                </a>
+                            </div>
+                            <div class="footer__sn-icon">
+                                <a href="#!" class="footer__sn_icon-link">
+                                    <img src="./img/svg/logo_sn_ok.svg" alt="odnoklassniki" class="footer__ok-pic">
+                                </a>
+                            </div>
+                            <div class="footer__sn-icon">
+                                <a href="#!" class="footer__sn_icon-link">
+                                    <img src="./img/svg/logo_sn_telegram.svg" alt="telegram" class="footer__telegram-pic">
+                                </a>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+	<script src="./js/scroll_script.js"></script>
+</body>
+</html>
